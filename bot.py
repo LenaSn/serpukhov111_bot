@@ -10,6 +10,9 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from dotenv import load_dotenv
 import aiosqlite
 
+from keep_alive import keep_alive
+keep_alive()
+
 # -----------------------
 # Загрузка токена
 load_dotenv()
